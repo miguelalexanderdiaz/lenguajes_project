@@ -1,0 +1,20 @@
+class Punto
+{
+//por omisión los miembros son 'private' para que sólo se puedan modificar desde la propia clase.
+private: 
+        // Variable miembro privada
+        int id;
+protected:
+        // Variables miembro protegidas
+        int x;
+        int y;
+public:
+        // Constructor
+        Punto();
+        // Destructor
+        ~Punto();
+        // Funciones miembro o métodos
+        int ObtenerX();
+        int ObtenerY();
+};
+      unafuncion(ala)
