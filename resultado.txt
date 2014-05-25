@@ -1,0 +1,125 @@
+(0)-> class Punto
+
+['class', 'Punto']
+
+------------------------------
+
+(1)-> {
+
+{
+^
+Error en la linea, 1, columna: 1 elemento no identificado
+
+------------------------------
+
+(2)-> //por omisión los miembros son 'private' para que sólo se puedan modificar desde la propia clase.
+
+['/', '/', 'por', 'omisi']
+
+------------------------------
+
+(3)-> private: 
+
+['private']
+
+------------------------------
+
+(4)->         // Variable miembro privada
+
+['/', '/', 'Variable', 'miembro', 'privada']
+
+------------------------------
+
+(5)->         int id;
+
+['int', 'id']
+
+------------------------------
+
+(6)-> protected:
+
+['protected']
+
+------------------------------
+
+(7)->         // Variables miembro protegidas
+
+['/', '/', 'Variables', 'miembro', 'protegidas']
+
+------------------------------
+
+(8)->         int x;
+
+['int', 'x']
+
+------------------------------
+
+(9)->         int y;
+
+['int', 'y']
+
+------------------------------
+
+(10)-> public:
+
+['public']
+
+------------------------------
+
+(11)->         // Constructor
+
+['/', '/', 'Constructor']
+
+------------------------------
+
+(12)->         Punto();
+
+['Punto', '(', ')']
+
+------------------------------
+
+(13)->         // Destructor
+
+['/', '/', 'Destructor']
+
+------------------------------
+
+(14)->         ~Punto();
+
+        ~Punto();
+        ^
+Error en la linea, 14, columna: 9 elemento no identificado
+
+------------------------------
+
+(15)->         // Funciones miembro o métodos
+
+['/', '/', 'Funciones', 'miembro', 'o', 'm']
+
+------------------------------
+
+(16)->         int ObtenerX();
+
+['int', 'ObtenerX', '(', ')']
+
+------------------------------
+
+(17)->         int ObtenerY();
+
+['int', 'ObtenerY', '(', ')']
+
+------------------------------
+
+(18)-> };
+
+};
+^
+Error en la linea, 18, columna: 1 elemento no identificado
+
+------------------------------
+
+(19)->       unafuncion(ala)
+['unafuncion', '(', 'ala', ')']
+
+------------------------------
+
