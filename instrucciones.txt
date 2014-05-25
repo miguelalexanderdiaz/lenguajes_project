@@ -1,0 +1,14 @@
+-----INSTRUCCIONES-----
+
+-Tener instalado python
+
+-Instalar la libreria pyparsing:
+  --ingresar a la carpeta 'pyparsing-2.0.2'
+  --ejecutar*: python setup.py install
+    *Se requieren permisos de administrador
+
+-Ejecutar el analizador:
+
+  python analizador_lexico.py codigo_prueba 
+
+donde 'codigo_prueba' es el código fuente del programa a analizar, maneja tambien direcciones si el archivo 'codigo_prueba' se encuentra en otro directorio
